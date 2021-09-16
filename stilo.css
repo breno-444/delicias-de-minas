@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'font';
+    src: url("../_fonts/computer-font.ttf");
+}
+
+
+@keyframes pular{
+    0%, 20%, 60%, 100%{
+        -webkit-transform:translateY(0) ;
+        transform: translateY(0);
+    }
+    40%{
+        -webkit-transform:translateY(-20px) ;
+        transform: translateY(-20px);
+    }
+    80%{
+        -webkit-transform:translateY(-10px) ;
+        transform: translateY(-10px);
+    }
+}
+
+
+body{
+ 
+    width: 1200px;
+    margin: -20px auto 10px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px ;
+    background-color: rgb(243, 243, 243);
+    
+}
+
+body h1{
+    color: rgb(0, 0, 0);
+}
+  
+body h2{
+    color: rgb(0, 0, 0);
+}
+body h3{
+    color: rgb(0, 0, 0);
+}
+
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+/*======================================*/
+
+
+
+.img1{
+    width: 100%;
+    height: 500px;
+    background:url('/receitas-de-minas/img/tropeiro.jpg') no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img2{
+    width: 100%;
+    height: 300px;
+    background:url('/receitas-de-minas/img/frango.jpg') no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img3{
+    width: 100%;
+    height: 300px;
+    background:url('/receitas-de-minas/img/vaca.jpg') no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img4{
+    width: 100%;
+    height: 300px;
+    background:url('/receitas-de-minas/img/tutuu.jpg') no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img5{
+    width: 100%;
+    height: 400px;
+    background:url('/receitas-de-minas/img/cheesebread.jpg') no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}.img6{
+    width: 100%;
+    height: 300px;
+    background:url('/receitas-de-minas/img/torresmo.jpg') no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img7{
+    width: 100%;
+    height: 300px;
+    background:url('/receitas-de-minas/img/angu.jpg') no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img8{
+    width: 100%;
+    height: 300px;
+    background:url('/receitas-de-minas/img/curaudemilho.jpg') no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img9{
+    width: 100%;
+    height: 300px;
+    background:url('/receitas-de-minas/img/FUBA.jpg') no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
